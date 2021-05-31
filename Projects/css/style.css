@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Indie+Flower&display=swap');
+
+:root{
+--main-bg-color: #2874f0
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    background-color:var(--main-bg-color);
+    color: white;
+    height: 30vh;
+    font-family: 'Indie Flower', cursive;
+}
+header{
+    background-color: var(--main-bg-color);
+    height: 13vh;
+        
+    
+}
+nav{
+    display: flex; 
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    margin: 0px 5px;
+
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+     height: 13vh;
+     padding: 0px 30px;
+    
+}
+li{
+    padding: 0px 10px;
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: bold;
+    color: orange;
+}
+main{
+    min-height: calc(100vh - 30vh - 13vh);
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 40vw;
+   border-radius: 5px;
+   margin: 0px 10px;
+
+}
+.btn{
+    background-color: var(--main-bg-color);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 2px 3px;
+    cursor: pointer;
+    font-family:  'Indie Flower', cursive;
+}
+.btn:hover{
+    font-weight: bold;
+}
+.slider{
+    margin: 12px auto;
+    width: 80vw;
+/* overflow: hidden; */
+
+}
+.card{
+    background-color: blanchedalmond;
+    margin: 10px auto;
+    max-width: 90vw;
+    border: 1px solid black;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+}
+.card h2{
+    font-family:  'Indie Flower', cursive;
+    margin: 0px 5px;
+}
+.card-item{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 10vw;
+    
+}
